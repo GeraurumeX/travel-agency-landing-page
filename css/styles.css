@@ -1,0 +1,72 @@
+header {
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background: blue;
+    color: white;
+}
+
+.header-top a {
+    color: white;
+}
+
+p {
+    margin: 0;
+}
+
+p span {
+    color: yellow;
+}
+
+.wrapper p {
+    align-items: center;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    padding: 7px;
+}
+
+li a {
+    color: black;
+    
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+section {
+    height: 466px;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero {
+   background-image: url(../images/beach.jpg);
+}
+
+
+
